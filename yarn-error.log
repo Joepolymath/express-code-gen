@@ -1,0 +1,46 @@
+Arguments: 
+  /opt/homebrew/Cellar/node@14/14.21.3/libexec/node /opt/homebrew/bin/yarn add shelljs
+
+PATH: 
+  /opt/homebrew/opt/python@3.10/libexec/bin:/opt/homebrew/bin:/opt/homebrew/opt/node@14/bin:/Users/joshuaajagbe/.npm-packages/bin:/usr/local/share/npm/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.21.3
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+npm manifest: 
+  {
+    "name": "express-code-gen",
+    "version": "1.0.0",
+    "description": "A code generator package to generate express server files and folder structure",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "bash ./scripts/clone-repo.sh"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Joepolymath/express-code-gen.git"
+    },
+    "author": "Joshua Ajagbe",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Joepolymath/express-code-gen/issues"
+    },
+    "homepage": "https://github.com/Joepolymath/express-code-gen#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
