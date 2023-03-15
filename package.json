@@ -1,6 +1,6 @@
 {
   "name": "express-code-gen",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A code generator package to generate express server files and folder structure",
   "main": "index.js",
   "bin": {
