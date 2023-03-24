@@ -21,6 +21,11 @@
   },
   "homepage": "https://github.com/Joepolymath/express-code-gen#readme",
   "dependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
     "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2"
   }
 }
