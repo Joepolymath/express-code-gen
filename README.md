@@ -16,6 +16,8 @@ Folder structure generated include:
 - dataAcess
 - models
 
+
+
 These also include files like database configuration, logging and lots more.
 
 To generate code, type the command `npx express-code-gen`

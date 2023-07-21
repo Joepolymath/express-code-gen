@@ -36,3 +36,13 @@ We use Jest for testing. Please make sure that your changes do not break any exi
 Please use descriptive and concise commit messages that explain the changes you have made. This makes it easier for us to review your changes and understand the purpose of each commit.
 
 Thank you for contributing to express-code-gen!
+
+## Authors
+
+- [Jonathan Felicity](https://github.com/jonathanfelicity)
+- [Joshua Tobi Ajagbe](https://github.com/Joepolymath)
+
+
+## Contributor
+
+- [Adesoji](https://github.com/Adesoji1)
