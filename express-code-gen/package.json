@@ -1,0 +1,26 @@
+{
+  "name": "express-code-gen",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build:gen": " npx nx build code-gen --resolveJsonModule --esModuleInterop"
+  },
+  "private": true,
+  "devDependencies": {
+    "@nx/js": "16.9.1",
+    "@types/node": "^20.7.0",
+    "nx": "16.9.1",
+    "nx-cloud": "latest",
+    "typescript": "^5.2.2"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "colors": "^1.4.0",
+    "commander": "^11.0.0",
+    "envinfo": "^7.10.0",
+    "figlet": "^1.6.0"
+  }
+}
