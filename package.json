@@ -1,31 +1,26 @@
 {
   "name": "express-code-gen",
-  "version": "1.0.2",
-  "description": "A code generator package to generate express server files and folder structure",
-  "main": "index.js",
-  "bin": {
-    "express-code-gen": "./index.js"
-  },
+  "version": "0.0.0",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "bash ./scripts/clone-repo.sh"
+    "build:gen": " npx nx build code-gen --resolveJsonModule --esModuleInterop"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Joepolymath/express-code-gen.git"
-  },
-  "author": "Joshua Ajagbe",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Joepolymath/express-code-gen/issues"
-  },
-  "homepage": "https://github.com/Joepolymath/express-code-gen#readme",
-  "dependencies": {
-    "eslint": "^7.32.0 || ^8.2.0",
-    "shelljs": "^0.8.5"
-  },
+  "private": true,
   "devDependencies": {
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.25.2"
+    "@nx/js": "16.9.1",
+    "@types/node": "^20.7.0",
+    "nx": "16.9.1",
+    "nx-cloud": "latest",
+    "typescript": "^5.2.2"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "colors": "^1.4.0",
+    "commander": "^11.0.0",
+    "envinfo": "^7.10.0",
+    "figlet": "^1.6.0"
   }
 }
