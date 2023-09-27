@@ -27,7 +27,7 @@ export function init() {
     .option('--info', 'print environment debug info')
     .option(
       '--scripts-version <alternative-package>',
-      'use a non-standard version of react-scripts'
+      'use a non-standard version of gen-scripts'
     )
     .option(
       '--template <path-to-template>',
@@ -87,8 +87,6 @@ export function init() {
             'Firefox',
             'Safari',
           ],
-          npmPackages: ['react', 'react-dom', 'react-scripts'],
-          npmGlobalPackages: ['create-react-app'],
         },
         {
           duplicates: true,
@@ -96,5 +94,16 @@ export function init() {
         }
       )
       .then(console.log);
+  }
+
+  if (typeof projectName === 'undefined') {
+    console.error('Please specify the project directory:');
+    console.log(`  ${program.name()} ${'<project-directory>'}`);
+    console.log();
+    console.log('For example:');
+    console.log(`  ${program.name()} ${'my-code-gen'}`);
+    console.log();
+    console.log(`Run ${`${program.name()} --help`} to see all options.`);
+    process.exit(1);
   }
 }
