@@ -22,6 +22,7 @@
     "commander": "^11.0.0",
     "envinfo": "^7.10.0",
     "figlet": "^1.6.0",
-    "semver": "^7.5.4"
+    "semver": "^7.5.4",
+    "validate-npm-package-name": "^5.0.0"
   }
 }
